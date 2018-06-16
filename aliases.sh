@@ -15,3 +15,9 @@ alias ls='ls -G'
 
 # Alias for getting current branch more quickly
 alias gb="git branch | grep \* | sed s/*\ //g"
+
+# encoding stuff
+alias b64=base64
+alias d64="base64 --decode"
+
+alias gvim=mvim
