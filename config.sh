@@ -9,4 +9,5 @@ export EDITOR=vim
 # History stored for every shell
 export PROMPT_COMMAND='history -a'
 # Larger history
+export HISTSIZE=5000
 export HISTFILESIZE=500000
