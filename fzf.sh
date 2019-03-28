@@ -7,6 +7,6 @@ bind '"\C-t": transpose-chars'
 # If fd is available, use instead of find. This will respect .gitignore
 fd=$(which fd)
 if [ -n "$fd" ]; then
-    export FZF_DEFAULT_COMMAND='fd --type f'
+    export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
     export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 fi
