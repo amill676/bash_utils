@@ -15,7 +15,7 @@ alias ls='ls -G'
 
 # Alias for getting current branch more quickly
 alias gb="git branch | grep \* | sed s/*\ //g"
-alias gbsort="git branch --sort=committerdate"
+alias gbsort="git --no-pager branch --sort=committerdate"
 
 # encoding stuff
 alias b64=base64
