@@ -6,6 +6,7 @@ function zensh {
 
 
 function kusleep {
+    kuc adam
     kusd botweb 0
     kusd celerybeat 0
     kusd cloudsqlproxy 0
@@ -28,6 +29,7 @@ function kusleep {
 }
 
 function kuwake {
+    kuc adam
     kusd botweb 1
     kusd celerybeat 1
     kusd cloudsqlproxy 1
