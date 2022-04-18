@@ -8,7 +8,6 @@ bind '"\C-t": transpose-chars'
 fd=$(which fd)
 rg=$(which rg)
 if [ -n "$rg" ]; then
-    #export FZF_DEFAULT_COMMAND='echo "hi"'
     export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow -g "!{.git,node_modules,gsapi}/*" 2> /dev/null'
     export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 elif [ -n "$fd" ]; then
