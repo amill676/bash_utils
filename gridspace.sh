@@ -89,3 +89,5 @@ function kuwake {
 
     kuwakepods
 }
+
+alias killjunk='ps aux | grep "python -m junkswitch run" | grep -v "grep" | col2 | xargs kill -9'
