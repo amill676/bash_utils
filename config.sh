@@ -5,8 +5,8 @@
 #export PS1="\w$ "
 
 # virtual env
-export WORKON_HOME=~/virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+#export WORKON_HOME=~/virtualenvs
+#source /usr/local/bin/virtualenvwrapper.sh
 
 export EDITOR=vim
 
